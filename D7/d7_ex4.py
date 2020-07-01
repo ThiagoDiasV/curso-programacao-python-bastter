@@ -12,7 +12,7 @@ Mah é a porta da esperançaam. Ma vejam só, vejam só. Valendo um milhão de r
 
 contador_mah = 0
 for palavra in silvio.split(' '):
-    if palavra == 'Mah' or palavra == 'Ma':
+    if palavra in ["Ma", "Mah", "Ma!"]:
         contador_mah += 1
 
 print(f'O Silvio disse "Mah" ou "Ma" {contador_mah} vezes.')
