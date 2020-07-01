@@ -12,6 +12,7 @@ Mah é a porta da esperançaam. Ma vejam só, vejam só. Valendo um milhão de r
 
 novo_texto = silvio.replace("Mah", "Bastter")
 novo_texto = novo_texto.replace("Ma", "Bastter")
+novo_texto = novo_texto.replace("Ma!", "Bastter")
 
 print(novo_texto)
 

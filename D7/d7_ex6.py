@@ -15,7 +15,6 @@ Mah é a porta da esperançaam. Ma vejam só, vejam só. Valendo um milhão de r
 lista_bastter = ['bastter', 'senesino', 'oxe', 'celtiberian', 'this.denise', 'buy_and_hold64']
 
 silvio_splitado = silvio.split()
-
 for palavra in silvio_splitado:
     if palavra in ["Ma", "Mah", "Ma!"]:
         silvio_splitado[silvio_splitado.index(palavra)] = choice(lista_bastter)
