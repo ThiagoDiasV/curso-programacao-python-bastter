@@ -6,6 +6,7 @@ if not 'resultados' in os.listdir('.'):
     os.mkdir(f'{os.path.abspath("")}/resultados')
 
 with open('resultados/silvio_ex2.txt', 'r') as arquivo:
+    from pdb import set_trace; set_trace()
     for line in arquivo:
         if 'Mah' in line or 'Ma' in line:
             print(line)
